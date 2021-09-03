@@ -112,14 +112,23 @@
   padding: 0.5em 1em;
   border-radius: 10px;
   font-weight: 700;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
 }
 
 .contact-us-btn:hover,
 .contact-us-btn:active,
 .contact-us-btn:focus {
-  /* color: var(--primary-color); */
-  color: var(--red-color);
+  color: var(--primary-color);
   background-color: #fff;
+  transform: scaleX(1.05);
+  -webkit-transform: scaleX(1.05);
+  -moz-transform: scaleX(1.05);
+  -ms-transform: scaleX(1.05);
+  -o-transform: scaleX(1.05);
 }
 
 /* Video show */
