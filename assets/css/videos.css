@@ -1,0 +1,8 @@
+.videos {
+  padding: 4em 0;
+}
+
+.videos iframe {
+  height: 400px;
+  width: 100%;
+}
