@@ -223,24 +223,25 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  width: 70%;
 }
 
 .pop-up-image {
   border: 10px solid #fff;
   border-radius: 20px;
   height: 70vh;
-  width: 80vw;
   object-fit: center;
+  width: 100%;
 }
 
 .pop-up .close {
   position: absolute;
-  bottom: 1em;
+  bottom: 0.5em;
   right: 1em;
 }
 
 .pop-up .close i {
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -260,6 +261,10 @@
 
   .carousel-caption h1 {
     font-size: 3rem;
+  }
+
+  .pop-up-inner {
+    width: 40%;
   }
 
   .services .grid {
