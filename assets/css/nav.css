@@ -76,9 +76,9 @@ header {
   position: relative;
 }
 
-.nav-link.active a,
-.dropdown-link.active a {
-  border-bottom: 2px solid var(--primary-color);
+.nav-link.active > a {
+  border-bottom: 2px solid var(--red-color);
+  color: var(--red-color);
 }
 
 .nav-link > a {
