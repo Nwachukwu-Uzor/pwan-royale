@@ -148,13 +148,15 @@
 
 .estate-slider .swiper-slide img,
 .estate-slider .swiper-slide .card {
-  height: 85vh;
-  overflow-y: scroll;
   width: 100%;
 }
 
+.estate-slider .swiper-slide img {
+  height: 85vh;
+}
+
 .estate-slider .swiper-slide .card {
-  border: 2px solid var(--primary-color);
+  /* border: 2px solid var(--primary-color); */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

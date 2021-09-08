@@ -496,7 +496,7 @@
     <section class="estate-slider">
       <h1 class="text-center">Estates</h1>
       <div class="container">
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper-1">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="grid">
@@ -914,18 +914,19 @@
             </div>
           </div>
           <div>
-            <div class="contact-us text-left">
+            <div class="contact-us text-left pl-0">
               <h2>PHONE</h2>
               <div>
-                <p>+234-805-292-8259</p>
-                <p>+234-803-311-7277</p>
-                <p>+234-811-889-7022</p>
+                <p>+2348 88888 753</p>
+                <p>+2349 9999 314</p>
+                <p>+2348 1888 847</p>
               </div>
             </div>
             <div class="contact-us text-left">
               <h2>EMAIL</h2>
               <div>
                 <p>pwanroyale@gmail.com</p>
+                <p>info@pwanroyale.com</p>
               </div>
             </div>
           </div>
@@ -984,6 +985,23 @@
         centeredSlides: true,
         autoplay: {
           delay: 7000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper-1", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
           disableOnInteraction: false,
         },
         pagination: {

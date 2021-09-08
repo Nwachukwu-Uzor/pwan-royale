@@ -3,7 +3,7 @@
   --primary-color: #001e6c;
   --light-primary-color: #00098d;
   --red-color: #8b0000;
-  --shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  --shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   --shadow-2: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
