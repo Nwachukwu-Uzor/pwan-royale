@@ -1,0 +1,16 @@
+.services {
+  padding: 2em 1em;
+  margin: 1em auto;
+}
+
+.service-icon {
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.75;
+}
+
+@media (min-width: 768px) {
+  .service-icon {
+    font-size: 17rem;
+  }
+}

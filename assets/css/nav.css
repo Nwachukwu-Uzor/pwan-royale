@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 :root {
   --primary-color: #001e6c;
   --light-primary-color: #00098d;
@@ -33,6 +34,8 @@ header {
   box-shadow: var(--shadow);
   width: 100%;
   z-index: 1000;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
 }
 
 .nav-container {
@@ -41,7 +44,7 @@ header {
   height: 4rem;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .logo-container {
@@ -77,8 +80,13 @@ header {
 }
 
 .nav-link.active > a {
-  border-bottom: 2px solid var(--red-color);
   color: var(--red-color);
+}
+
+@media (min-width: 768px) {
+  .nav-link.active > a {
+    border-bottom: 2px solid var(--red-color);
+  }
 }
 
 .nav-link > a {
@@ -172,6 +180,7 @@ header {
 
 .dropdown.second a {
   display: block;
+  padding-right: 0;
 }
 
 .dropdown.second .arrow {
@@ -289,7 +298,12 @@ header {
     overflow-y: auto;
     transform: translateX(100%);
     transition: 0.65s;
-    /* flex: 3; */
+    /*flex: 3;
+     */
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
   }
 
   #check:checked ~ .nav-btn {

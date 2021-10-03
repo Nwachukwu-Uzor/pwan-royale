@@ -56,6 +56,7 @@
 .about-staff-profile .staff-image {
   height: 400px;
   width: 100%;
+  object-fit: center;
 }
 
 .about-staff-profile .staff-profile {
@@ -74,5 +75,9 @@
 
   .about-objectives .objectives h2 {
     font-size: 2.5rem;
+  }
+
+  .about-staff-profile .staff-image {
+    height: auto;
   }
 }
