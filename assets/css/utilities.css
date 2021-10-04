@@ -7,7 +7,7 @@
 }
 
 html {
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ iframe {
 }
 
 .title-container {
-  min-height: 40vh;
+  min-height: 20vh;
   display: flex;
   color: #fff;
   flex-direction: column;
@@ -73,11 +73,15 @@ iframe {
   background-attachment: fixed;
 }
 
+@media (min-width: 768px) {
+  .title-container {
+    min-height: 40vh;
+  }
+}
+
 .title-container h1 {
   font-size: 1.2rem;
-  animation-duration: 1.5s;
-  animation-iteration-count: 3;
-  animation-direction: alternate;
+  animation-duration: 0.5s;
   text-transform: uppercase;
   color: var(--primary-color);
 }
