@@ -259,6 +259,8 @@
   width: 90%;
   height: 70vh;
   object-fit: center;
+  border: 5px solid #fff;
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -280,6 +282,12 @@
   position: absolute;
   right: 0.75em;
   bottom: 0.25em;
+}
+
+@media (min-width: 768px) {
+  .pop-up .close i {
+    right: 0.5em;
+  }
 }
 
 @media (min-width: 768px) {

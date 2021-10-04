@@ -54,7 +54,14 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 30px;
+  }
 }
 
 .btn {

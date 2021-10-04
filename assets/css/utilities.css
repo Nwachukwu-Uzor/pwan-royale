@@ -55,13 +55,15 @@ h2 {
   }
 }
 
-p {
+p,
+li {
   font-size: 0.95rem;
   line-height: 2;
 }
 
 @media (min-width: 768px) {
-  p {
+  p,
+  li {
     font-size: 1rem;
   }
 }
@@ -98,7 +100,6 @@ iframe {
 }
 
 .title-container h1 {
-  font-size: 1.2rem;
   animation-duration: 0.5s;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -193,9 +194,5 @@ iframe {
 
   .grid-center-y {
     align-items: center;
-  }
-
-  .title-container h1 {
-    font-size: 2rem;
   }
 }
