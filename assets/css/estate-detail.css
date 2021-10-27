@@ -28,7 +28,8 @@
   padding: 0 0.2em;
 }
 
-.video-estate iframe {
+.video-estate iframe,
+.video-estate video {
   height: 400px;
 }
 
