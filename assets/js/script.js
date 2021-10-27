@@ -5,12 +5,7 @@ const check = document.querySelector("#check");
 const navLinks = document.querySelectorAll(".nav-link");
 const dropdownLinks = document.querySelectorAll(".dropdown-link");
 
-const imgArray = [
-  "assets/images/royale-images/ALL UYO I.jpg",
-  "assets/images/royale-images/ALL OTA.jpg",
-  "assets/images/royale-images/ALL UYO.jpg",
-  "/assets/images/royale-images/FEN EGU.png",
-];
+const clickToClose = document.querySelectorAll(".clickToClose");
 
 window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
@@ -25,9 +20,21 @@ window.addEventListener("DOMContentLoaded", () => {
     modals.classList.remove("appear");
   });
 
-  dropdownLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-      check.checked = false;
+  // dropdownLinks.forEach((link) => {
+  //   link.addEventListener("click", () => {
+  //     check.checked = false;
+  //   });
+  // });
+
+  clickToClose.forEach((click) => {
+    click.addEventListener("click", () => {
+      check.checked = !check.checked;
     });
   });
+
+  // navLinks.forEach((link) => {
+  //   link.addEventListener("click", () => {
+  //     check.checked = false;
+  //   });
+  // });
 });
