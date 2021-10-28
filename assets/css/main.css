@@ -276,7 +276,7 @@
 
 .pop-up .close i {
   font-size: 1.25rem;
-  color: #fff;
+  color: var(--primary-color);
   cursor: pointer;
   position: absolute;
   right: 0.75em;
